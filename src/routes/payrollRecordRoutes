@@ -1,0 +1,114 @@
+const express = require('express');
+const router = express.Router();
+const { z } = require('zod');
+const { authMiddleware, roleMiddleware, employeeOwnRecordMiddleware } = require('../middleware/auth');
+
+// Validation schema
+const payrollRecordSchema = z.object({
+  employeeId: z.string().uuid('Invalid employee ID'),
+  payPeriodStart: z.string().datetime('Invalid date format'),
+  baseSalary: z.number().min(0, 'Base salary must be non-negative'),
+  status: z.enum(['DRAFT', 'PROCESSED', 'PAID', 'CANCELLED']).optional(),
+});
+
+// Middleware for validation
+const validatePayrollRecord = (req, res, next) => {
+  try {
+    payrollRecordSchema.parse(req.body);
+    next();
+  } catch (error) {
+    res.status(400).json({ error: error.errors });
+  }
+};
+
+// GET /: List payroll records (paginated, filter by employeeId, status)
+router.get(
+  '/',
+  authMiddleware,
+  roleMiddleware(['ADMIN', 'HR', 'EMPLOYEE']),
+  employeeOwnRecordMiddleware('payroll'),
+  async (req, res) => {
+    const { page = 1, limit = 10, employeeId, status } = req.query;
+    const filters = {};
+    if (employeeId) filters.employeeId = employeeId;
+    if (status) filters.status = status;
+
+    try {
+      const records = [];
+      const total = 0;
+      res.json({ records, total, page: Number(page), limit: Number(limit) });
+    } catch (error) {
+      res.status(500).json({ error: 'Server error' });
+    }
+  }
+);
+
+// GET /:id: Get payroll record
+router.get(
+  '/:id',
+  authMiddleware,
+  roleMiddleware(['ADMIN', 'HR', 'EMPLOYEE']),
+  employeeOwnRecordMiddleware('payroll'),
+  async (req, res) => {
+    const { id } = req.params;
+    try {
+      const record = { id, employeeId: 'uuid', payPeriodStart: '2025-07-01T00:00:00Z', baseSalary: 5000 };
+      if (!record) return res.status(404).json({ error: 'Record not found' });
+      res.json(record);
+    } catch (error) {
+      res.status(500).json({ error: 'Server error' });
+    }
+  }
+);
+
+// POST /: Create payroll record
+router.post(
+  '/',
+  authMiddleware,
+  roleMiddleware(['ADMIN', 'HR']),
+  validatePayrollRecord,
+  async (req, res) => {
+    const { employeeId, payPeriodStart, baseSalary } = req.body;
+    try {
+      const newRecord = { id: 'uuid', employeeId, payPeriodStart, baseSalary, status: 'DRAFT' };
+      res.status(201).json(newRecord);
+    } catch (error) {
+      res.status(500).json({ error: 'Server error' });
+    }
+  }
+);
+
+// PUT /:id: Update payroll record
+router.put(
+  '/:id',
+  authMiddleware,
+  roleMiddleware(['ADMIN', 'HR']),
+  validatePayrollRecord,
+  async (req, res) => {
+    const { id } = req.params;
+    const { employeeId, payPeriodStart, baseSalary, status } = req.body;
+    try {
+      const updatedRecord = { id, employeeId, payPeriodStart, baseSalary, status };
+      res.json(updatedRecord);
+    } catch (error) {
+      res.status(500).json({ error: 'Server error' });
+    }
+  }
+);
+
+// DELETE /:id: Delete payroll record
+router.delete(
+  '/:id',
+  authMiddleware,
+  roleMiddleware(['ADMIN', 'HR']),
+  async (req, res) => {
+    const { id } = req.params;
+    try {
+      res.json({ message: 'Payroll record deleted' });
+    } catch (error) {
+      res.status(500).json({ error: 'Server error' });
+    }
+  }
+);
+
+module.exports = router;

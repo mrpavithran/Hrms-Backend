@@ -1,0 +1,383 @@
+{"level":"info","message":"🚀 Server running on port 3000","service":"hrms-backend","timestamp":"2025-07-28T07:15:35.815Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-28T07:15:35.827Z"}
+{"level":"info","message":"🌍 Environment: development","service":"hrms-backend","timestamp":"2025-07-28T07:15:35.828Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"hrms-backend","timestamp":"2025-07-28T07:16:01.747Z"}
+{"level":"info","message":"🚀 Server running on port 3000","service":"hrms-backend","timestamp":"2025-07-28T07:16:07.654Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-28T07:16:07.662Z"}
+{"level":"info","message":"🌍 Environment: development","service":"hrms-backend","timestamp":"2025-07-28T07:16:07.663Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":2,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-28T07:16:13.275Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":1,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-28T07:16:13.716Z","url":"/favicon.ico","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"hrms-backend","timestamp":"2025-07-28T07:19:50.366Z"}
+{"level":"info","message":"🚀 Server running on port 3000","service":"hrms-backend","timestamp":"2025-07-28T07:23:20.471Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-28T07:23:20.480Z"}
+{"level":"info","message":"🌍 Environment: development","service":"hrms-backend","timestamp":"2025-07-28T07:23:20.481Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":4,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-28T07:23:25.509Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"🚀 Server running on port 3000","service":"hrms-backend","timestamp":"2025-07-28T07:28:07.477Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-28T07:28:07.483Z"}
+{"level":"info","message":"🌍 Environment: development","service":"hrms-backend","timestamp":"2025-07-28T07:28:07.484Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":2,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-28T07:28:14.135Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"🚀 Server running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T17:30:21.272Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-29T17:30:21.276Z"}
+{"level":"info","message":"🌍 Environment: development","service":"hrms-backend","timestamp":"2025-07-29T17:30:21.277Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T17:34:21.062Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-29T17:34:21.074Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:3000","service":"hrms-backend","timestamp":"2025-07-29T17:34:21.074Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T17:36:14.563Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-29T17:36:14.573Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5174","service":"hrms-backend","timestamp":"2025-07-29T17:36:14.573Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T17:37:36.330Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-29T17:37:36.347Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5174","service":"hrms-backend","timestamp":"2025-07-29T17:37:36.352Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T17:41:23.830Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"hrms-backend","timestamp":"2025-07-29T17:41:23.835Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-29T17:41:23.836Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":138,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T17:41:33.342Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":154,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T17:46:00.337Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":9,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T17:46:12.744Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":21,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-29T17:50:15.123Z","url":"/.well-known/appspecific/com.chrome.devtools.json","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":200,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T17:54:35.468Z","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":2,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-29T17:57:58.766Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":0,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-29T17:57:58.793Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-29T18:05:48.919Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-29T18:05:48.934Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-29T18:05:48.934Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":185,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T18:06:28.969Z","url":"/api/health","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":11,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-29T18:06:29.178Z","url":"/api/health","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":239,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-30T04:03:53.666Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":2,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-30T04:03:53.921Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":215,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-30T04:08:26.271Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":588,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-30T05:04:21.924Z","url":"/api/health","userAgent":"PostmanRuntime/7.44.1"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T05:10:23.551Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T05:10:23.578Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T05:10:23.579Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T05:31:53.609Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T05:31:53.628Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T05:31:53.629Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T05:35:10.676Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T05:35:11.037Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T05:35:11.087Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"POST","responseTime":16,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T07:32:27.904Z","url":"/api/health/auth/register","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":6,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T09:58:24.226Z","url":"/api/health/login","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":1,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T10:00:49.467Z","url":"/api/health/users","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":4,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T10:37:27.618Z","url":"/api/health/users","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":1,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T10:37:37.012Z","url":"/api/health/login","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T11:51:45.554Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T11:51:45.567Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T11:51:45.568Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T12:02:26.608Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T12:02:26.640Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T12:02:26.641Z"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":431,"service":"hrms-backend","statusCode":200,"timestamp":"2025-07-30T14:18:31.335Z","url":"/api/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"API Call","method":"GET","responseTime":8,"service":"hrms-backend","statusCode":404,"timestamp":"2025-07-30T14:18:45.644Z","url":"/api/health/login","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:55:18.033Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:55:18.051Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:55:18.052Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:55:21.788Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:55:21.795Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:55:21.796Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:56:27.715Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:56:27.720Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:56:27.720Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:56:33.526Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:56:33.531Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:56:33.532Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:58:12.478Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:58:12.483Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:58:12.483Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T15:59:05.878Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T15:59:05.894Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T15:59:05.895Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:00:46.767Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:00:46.776Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:00:46.778Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:19:22.594Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:19:22.620Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:19:22.621Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:19:52.027Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:19:52.036Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:19:52.036Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:20:47.101Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:20:47.108Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:20:47.109Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:21:32.107Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:21:32.122Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:21:32.123Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:22:28.392Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:22:28.396Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:22:28.397Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:23:52.369Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:23:52.382Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:23:52.383Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:24:08.768Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:24:08.772Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:24:08.773Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:24:57.547Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:24:57.552Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:24:57.552Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:25:13.250Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:25:13.255Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:25:13.256Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:25:49.626Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:25:49.638Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:25:49.639Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:27:01.783Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:27:01.791Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:27:01.792Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:28:18.947Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:28:18.955Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:28:18.956Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:29:12.825Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:29:12.835Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:29:12.836Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:30:04.152Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:30:04.164Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:30:04.165Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:30:43.770Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:30:43.776Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:30:43.777Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:31:36.588Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:31:36.594Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:31:36.595Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:32:05.245Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:32:05.264Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:32:05.266Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:32:36.070Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:32:36.083Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:32:36.086Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:33:04.836Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:33:04.851Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:33:04.852Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:33:39.373Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:33:39.378Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:33:39.378Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:34:55.198Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:34:55.205Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:34:55.205Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:34:58.793Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:34:58.798Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:34:58.799Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:36:33.203Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:36:33.215Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:36:33.216Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:37:30.122Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:37:30.127Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:37:30.128Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:38:52.787Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:38:52.801Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:38:52.801Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:39:33.398Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:39:33.403Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:39:33.404Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:40:10.117Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:40:10.181Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:40:10.185Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:40:44.838Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:40:44.848Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:40:44.849Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:41:36.336Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:41:36.349Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:41:36.350Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:42:04.956Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:42:04.966Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:42:04.967Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:43:01.739Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:43:01.744Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:43:01.744Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:43:20.360Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:43:20.373Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:43:20.374Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:43:49.202Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:43:49.218Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:43:49.219Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:44:20.659Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:44:20.669Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:44:20.671Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:45:09.570Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:45:09.579Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:45:09.580Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:45:50.825Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:45:50.835Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:45:50.836Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:47:26.402Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:47:26.410Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:47:26.411Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:48:03.029Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:48:03.036Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:48:03.036Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:48:40.024Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:48:40.033Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:48:40.034Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:49:42.531Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:49:42.544Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:49:42.546Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:50:44.914Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:50:44.931Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:50:44.938Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:52:11.806Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:52:11.810Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:52:11.811Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:52:55.238Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:52:55.247Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:52:55.249Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:53:25.489Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:53:25.500Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:53:25.501Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:55:49.681Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:55:49.691Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:55:49.692Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:56:30.318Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:56:30.323Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:56:30.324Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:56:54.335Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:56:54.346Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:56:54.347Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:57:12.888Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:57:12.892Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:57:12.893Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:57:52.088Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:57:52.099Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:57:52.101Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:58:18.947Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:58:18.981Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:58:18.996Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:58:47.954Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:58:47.966Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:58:47.970Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T16:59:25.677Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T16:59:25.686Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T16:59:25.687Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:00:17.501Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:00:17.517Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:00:17.518Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:01:00.495Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:01:00.504Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:01:00.512Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:01:21.132Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:01:21.142Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:01:21.144Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:01:44.723Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:01:44.729Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:01:44.729Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:10:49.446Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:10:49.462Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:10:49.464Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:10:54.545Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:10:54.549Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:10:54.551Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:12:16.869Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:12:16.877Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:12:16.878Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:12:37.900Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:12:37.905Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:12:37.905Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:13:08.333Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:13:08.350Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:13:08.351Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:13:37.246Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:13:37.251Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:13:37.252Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:14:36.155Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:14:36.167Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:14:36.169Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:15:08.177Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:15:08.183Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:15:08.183Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:15:59.081Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:15:59.105Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:15:59.114Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:16:28.704Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:16:28.719Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:16:28.720Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:18:16.085Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:18:16.092Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:18:16.092Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:19:28.744Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:19:28.751Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:19:28.753Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:20:01.691Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:20:01.702Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:20:01.703Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:20:50.880Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:20:50.889Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:20:50.890Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:21:22.765Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:21:22.771Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:21:22.771Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:21:56.326Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:21:56.332Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:21:56.332Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:22:39.356Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:22:39.364Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:22:39.365Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:23:01.256Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:23:01.261Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:23:01.262Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:23:24.201Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:23:24.212Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:23:24.213Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:23:37.463Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:23:37.474Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:23:37.475Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:24:05.297Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:24:05.317Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:24:05.325Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:25:02.559Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:25:02.565Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:25:02.569Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:25:39.700Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:25:39.708Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:25:39.709Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:25:43.730Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:25:43.734Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:25:43.735Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:25:45.772Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:25:45.795Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:25:45.796Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:26:13.039Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:26:13.053Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:26:13.057Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:27:32.409Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:27:32.414Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:27:32.417Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:28:07.727Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:28:07.742Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:28:07.751Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:28:45.961Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:28:45.973Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:28:45.973Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:29:56.008Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:29:56.015Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:29:56.016Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:41:22.004Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:41:22.032Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:41:22.034Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:41:44.684Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:41:44.689Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:41:44.690Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:42:27.237Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:42:27.244Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:42:27.245Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:42:45.032Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:42:45.040Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:42:45.041Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:43:16.170Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:43:16.178Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:43:16.179Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:43:40.956Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:43:40.962Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:43:40.963Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:44:29.061Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:44:29.068Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:44:29.070Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:45:08.309Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:45:08.316Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:45:08.317Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:46:18.274Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:46:18.280Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:46:18.281Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:48:30.017Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:48:30.059Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:48:30.060Z"}
+{"level":"info","message":"🚀 Backend running on port 3000","service":"hrms-backend","timestamp":"2025-07-30T17:49:11.092Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/api/health","service":"hrms-backend","timestamp":"2025-07-30T17:49:11.097Z"}
+{"level":"info","message":"Frontend URL allowed: http://localhost:5173","service":"hrms-backend","timestamp":"2025-07-30T17:49:11.097Z"}
