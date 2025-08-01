@@ -1,23 +1,28 @@
 // server.js
-import express from 'express';
-import cors from 'cors';
-import helmet from 'helmet';
-import rateLimit from 'express-rate-limit';
-import slowDown from 'express-slow-down';
-import { config } from 'dotenv';
-import { PrismaClient } from '@prisma/client';
-import logger, { requestLogger } from './utils/logger.js';
-import { errorHandler } from './middleware/errorHandler.js';
-import { auditMiddleware } from './middleware/auditMiddleware.js';
-import { authenticate } from './middleware/auth.js';
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const slowDown = require('express-slow-down');
+const { config } = require('dotenv');
+const { PrismaClient } = require('@prisma/client');
+const logger = require('./utils/logger.js');
+const { requestLogger } = require('./utils/logger.js');
+const errorHandler = require('./middleware/errorHandler.js');
+const { auditMiddleware } = require('./middleware/auditMiddleware.js');
+const { authenticate } = require('./middleware/auth.js');
 
 // Import route files
-import authRoutes from './routes/authRoutes.js';
-import employeeRoutes from './routes/employeeRoutes.js';
-import departmentRoutes from './routes/departmentRoutes.js';
-import attendanceRoutes from './routes/attendanceRoutes.js';
-import leaveRoutes from './routes/leaveRequestRoutes.js';
-import userRoutes from './routes/userRoutes.js';
+const authRoutes = require('./routes/authRoutes.js');
+const employeeRoutes = require('./routes/employeeRoutes.js');
+const departmentRoutes = require('./routes/departmentRoutes.js');
+const attendanceRoutes = require('./routes/attendanceRoutes.js');
+const leaveRoutes = require('./routes/leaveRequestRoutes.js');
+const userRoutes = require('./routes/userRoutes.js');
+const positionRoutes = require('./routes/positionRoutes.js');
+const payrollRoutes = require('./routes/payrollRecordRoutes.js');
+const documentRoutes = require('./routes/documentRoutes.js');
+const auditLogRoutes = require('./routes/auditLogRoutes.js');
 
 // Load environment variables
 config();
@@ -100,7 +105,6 @@ app.use('/api/employees', limiter, speedLimiter);
 app.use('/api/departments', limiter, speedLimiter);
 app.use('/api/attendance', limiter, speedLimiter);
 app.use('/api/leave', limiter, speedLimiter);
-app.use('/api/reports', limiter, speedLimiter);
 app.use('/api/users', limiter, speedLimiter);
 
 // === Body Parsing and Logging ===
@@ -115,8 +119,11 @@ app.use('/api/employees', authenticate, employeeRoutes);
 app.use('/api/departments', authenticate, departmentRoutes);
 app.use('/api/attendance', authenticate, attendanceRoutes);
 app.use('/api/leave', authenticate, leaveRoutes);
-app.use('/api/reports', authenticate, reportRoutes);
 app.use('/api/users', authenticate, userRoutes);
+app.use('/api/positions', authenticate, positionRoutes);
+app.use('/api/payroll', authenticate, payrollRoutes);
+app.use('/api/documents', authenticate, documentRoutes);
+app.use('/api/audit-logs', authenticate, auditLogRoutes);
 
 // === Health Check ===
 app.get('/api/health', async (req, res, next) => {
@@ -187,5 +194,4 @@ const server = app.listen(PORT, () => {
 });
 
 // Export for testing
-export { app, server };
-export default { app, server };
+module.exports = { app, server };

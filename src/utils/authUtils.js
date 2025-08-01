@@ -1,7 +1,7 @@
-import jwt from 'jsonwebtoken';
-import { randomBytes } from 'crypto';
-import { ValidationError, AuthenticationError } from './errors.js';
-import logger from './logger.js';
+const jwt = require('jsonwebtoken');
+const { randomBytes } = require('crypto');
+const { ValidationError, AuthenticationError } = require('./errors.js');
+const logger = require('./logger.js');
 
 // Payload validation schema for JWT generation
 const payloadSchema = {
@@ -36,7 +36,7 @@ const getEnvVariable = (key, defaultValue) => {
 };
 
 // Generate access and refresh tokens
-export const generateTokens = (payload) => {
+const generateTokens = (payload) => {
   validatePayload(payload, payloadSchema.generate);
 
   const accessToken = jwt.sign(
@@ -63,7 +63,7 @@ export const generateTokens = (payload) => {
 };
 
 // Verify access token
-export const verifyAccessToken = (token) => {
+const verifyAccessToken = (token) => {
   if (!token || typeof token !== 'string') {
     throw new AuthenticationError('Invalid access token', ['Token is missing or not a string'], 'INVALID_TOKEN');
   }
@@ -81,7 +81,7 @@ export const verifyAccessToken = (token) => {
 };
 
 // Verify refresh token
-export const verifyRefreshToken = (token) => {
+const verifyRefreshToken = (token) => {
   if (!token || typeof token !== 'string') {
     throw new AuthenticationError('Invalid refresh token', ['Token is missing or not a string'], 'INVALID_TOKEN');
   }
@@ -99,18 +99,10 @@ export const verifyRefreshToken = (token) => {
 };
 
 // Generate password reset token
-export const generatePasswordResetToken = () => {
+const generatePasswordResetToken = () => {
   const token = randomBytes(32).toString('hex');
   const expiresAt = Date.now() + parseInt(getEnvVariable('PASSWORD_RESET_TOKEN_EXPIRES_MS', '600000')); // 10 minutes
   return { token, expiresAt };
-};
-
-// Export for both ES Modules and CommonJS
-export default {
-  generateTokens,
-  verifyAccessToken,
-  verifyRefreshToken,
-  generatePasswordResetToken,
 };
 
 module.exports = {

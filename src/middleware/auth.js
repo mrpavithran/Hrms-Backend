@@ -1,8 +1,8 @@
 // src/middleware/auth.js
-import { PrismaClient } from '@prisma/client';
-import { AuthenticationError, AuthorizationError, ValidationError } from '../utils/errors.js';
-import { verifyAccessToken } from '../utils/authUtils.js';
-import logger from '../utils/logger.js';
+const { PrismaClient } = require('@prisma/client');
+const { AuthenticationError, AuthorizationError, ValidationError } = require('../utils/errors.js');
+const { verifyAccessToken } = require('../utils/authUtils.js');
+const logger = require('../utils/logger.js');
 
 const prisma = new PrismaClient({
   errorFormat: 'pretty',
@@ -19,7 +19,7 @@ const getEnvVariable = (key, defaultValue) => {
 };
 
 // Authentication middleware
-export const authenticate = async (req, res, next) => {
+const authenticate = async (req, res, next) => {
   try {
     const authHeader = req.headers.authorization;
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
@@ -61,7 +61,7 @@ export const authenticate = async (req, res, next) => {
 };
 
 // Role-based authorization middleware
-export const authorize = (...roles) => {
+const authorize = (...roles) => {
   return (req, res, next) => {
     if (!req.user) {
       req.logger.error('Authentication required', { url: req.originalUrl });
@@ -78,7 +78,7 @@ export const authorize = (...roles) => {
 };
 
 // Employee-specific authorization middleware
-export const authorizeEmployee = async (req, res, next) => {
+const authorizeEmployee = async (req, res, next) => {
   try {
     const employeeId = req.params.employeeId || req.params.id;
     if (!employeeId || !/^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/.test(employeeId)) {
@@ -116,8 +116,7 @@ export const authorizeEmployee = async (req, res, next) => {
   }
 };
 
-// Export for ES Modules
-export default {
+module.exports = {
   authenticate,
   authorize,
   authorizeEmployee,

@@ -1,13 +1,13 @@
 // routes/authRoutes.js
-import express from 'express';
-import bcrypt from 'bcryptjs';
-import { PrismaClient } from '@prisma/client';
-import { validate, authSchemas } from '../middleware/validation.js';
-import { authenticate } from '../middleware/auth.js';
-import { generateTokens, verifyRefreshToken, generatePasswordResetToken } from '../utils/authUtils.js';
-import { AppError, AuthenticationError, ValidationError } from '../utils/errors.js';
-import { createAuditLog } from '../middleware/auditMiddleware.js';
-import logger from '../utils/logger.js';
+const express = require('express');
+const bcrypt = require('bcryptjs');
+const { PrismaClient } = require('@prisma/client');
+const { validate, authSchemas } = require('../middleware/validation.js');
+const { authenticate } = require('../middleware/auth.js');
+const { generateTokens, verifyRefreshToken, generatePasswordResetToken } = require('../utils/authUtils.js');
+const { AppError, AuthenticationError, ValidationError } = require('../utils/errors.js');
+const { createAuditLog } = require('../middleware/auditMiddleware.js');
+const logger = require('../utils/logger.js');
 
 const router = express.Router();
 const prisma = new PrismaClient({
@@ -171,7 +171,7 @@ router.post('/refresh', validate(authSchemas.refreshToken), async (req, res, nex
     }
 
     // Generate new tokens
-    const { accessToken, newRefreshToken } = generateTokens({ userId: storedToken.userId, role: storedToken.user.role });
+    const { accessToken, refreshToken: newRefreshToken } = generateTokens({ userId: storedToken.userId, role: storedToken.user.role });
 
     // Update refresh token in transaction
     await prisma.$transaction([
@@ -347,6 +347,4 @@ router.get('/me', authenticate, async (req, res, next) => {
   }
 });
 
-// Export for both ES Modules and CommonJS
-export default router;
 module.exports = router;

@@ -1,14 +1,10 @@
-import winston from 'winston';
-import pkg from 'winston-daily-rotate-file';
-const DailyRotateFile = pkg;
+const winston = require('winston');
+const DailyRotateFile = require('winston-daily-rotate-file');
+const fs = require('fs').promises;
+const path = require('path');
+const crypto = require('crypto');
 
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import crypto from 'crypto';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const LOGS_DIR = path.join(__dirname, '..', 'logs');
+const LOGS_DIR = path.join(__dirname, '..', '..', 'logs');
 
 // Ensure logs directory exists
 const ensureLogsDirectory = async () => {
@@ -97,7 +93,7 @@ if (getEnvVariable('NODE_ENV', 'development') !== 'production') {
 ensureLogsDirectory();
 
 // Export a middleware to add request context
-export const requestLogger = (req, res, next) => {
+const requestLogger = (req, res, next) => {
   const requestId = crypto.randomUUID();
   req.logger = logger.child({
     requestContext: { requestId, userId: req.user?.id || null },
@@ -106,4 +102,5 @@ export const requestLogger = (req, res, next) => {
   next();
 };
 
-export default logger;
+module.exports = logger;
+module.exports.requestLogger = requestLogger;

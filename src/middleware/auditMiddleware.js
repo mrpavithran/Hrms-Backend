@@ -1,8 +1,8 @@
 // src/middleware/auditMiddleware.js
-import { PrismaClient } from '@prisma/client';
-import { z } from 'zod';
-import { ValidationError } from '../utils/errors.js';
-import logger from '../utils/logger.js';
+const { PrismaClient } = require('@prisma/client');
+const { z } = require('zod');
+const { ValidationError } = require('../utils/errors.js');
+const logger = require('../utils/logger.js');
 
 const prisma = new PrismaClient({
   errorFormat: 'pretty',
@@ -31,7 +31,7 @@ const auditLogSchema = z.object({
 });
 
 // Audit middleware for request/response logging
-export const auditMiddleware = async (req, res, next) => {
+const auditMiddleware = async (req, res, next) => {
   if (getEnvVariable('AUDIT_LOGGING_ENABLED', 'true') === 'false') {
     return next();
   }
@@ -60,7 +60,7 @@ export const auditMiddleware = async (req, res, next) => {
 };
 
 // Create audit log for specific actions
-export const createAuditLog = async (userId, action, resource, resourceId, oldValues = null, newValues = null, req = null) => {
+const createAuditLog = async (userId, action, resource, resourceId, oldValues = null, newValues = null, req = null) => {
   if (getEnvVariable('AUDIT_LOGGING_ENABLED', 'true') === 'false') {
     return;
   }
@@ -87,7 +87,6 @@ export const createAuditLog = async (userId, action, resource, resourceId, oldVa
         newValues: validatedData.newValues ? JSON.stringify(validatedData.newValues, null, 2) : null,
         ipAddress: validatedData.ipAddress,
         userAgent: validatedData.userAgent,
-        requestId: req?.logger?.requestContext?.requestId || null,
       },
     });
 
@@ -104,12 +103,6 @@ export const createAuditLog = async (userId, action, resource, resourceId, oldVa
     req?.logger.error(errorMessage, { userId, action, resource, resourceId });
     throw new ValidationError(errorMessage, error.errors || null, 'AUDIT_LOG_FAILED');
   }
-};
-
-// Export for both ES Modules and CommonJS
-export default {
-  auditMiddleware,
-  createAuditLog,
 };
 
 module.exports = {

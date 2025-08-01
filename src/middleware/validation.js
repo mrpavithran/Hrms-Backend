@@ -1,7 +1,7 @@
 // src/middleware/validation.js
-import { z } from 'zod';
-import { ValidationError } from '../utils/errors.js';
-import logger from '../utils/logger.js';
+const { z } = require('zod');
+const { ValidationError } = require('../utils/errors.js');
+const logger = require('../utils/logger.js');
 
 // Get environment variable with logging
 const getEnvVariable = (key, defaultValue) => {
@@ -14,7 +14,7 @@ const getEnvVariable = (key, defaultValue) => {
 };
 
 // Validation middleware
-export const validate = (schema) => {
+const validate = (schema) => {
   return (req, res, next) => {
     try {
       const validatedData = schema.parse({
@@ -34,7 +34,7 @@ export const validate = (schema) => {
           received: err.received || 'N/A',
         }));
         req.logger.error('Validation failed', { errors: errorMessages, url: req.originalUrl });
-        return next(new ValidationError('Validation failed', 400, errorMessages, 'VALIDATION_FAILED'));
+        return next(new ValidationError('Validation failed', errorMessages, 'VALIDATION_FAILED'));
       }
       req.logger.error('Unexpected validation error', { error: error.message, url: req.originalUrl });
       next(error);
@@ -43,7 +43,7 @@ export const validate = (schema) => {
 };
 
 // Common validation schemas
-export const commonSchemas = {
+const commonSchemas = {
   id: z.string().uuid('Invalid UUID format').trim(),
   email: z.string().email('Invalid email format').trim().toLowerCase(),
   phone: z.string().regex(/^\+?[\d\s\-\(\)]+$/, 'Invalid phone format').trim().optional(),
@@ -63,10 +63,10 @@ export const commonSchemas = {
 };
 
 // Role enum for consistency
-export const ROLES = ['ADMIN', 'HR', 'MANAGER', 'EMPLOYEE'];
+const ROLES = ['ADMIN', 'HR', 'MANAGER', 'EMPLOYEE'];
 
 // Auth validation schemas
-export const authSchemas = {
+const authSchemas = {
   register: z.object({
     body: z.object({
       email: commonSchemas.email,
@@ -115,7 +115,7 @@ const baseEmployeeSchema = z.object({
 });
 
 // Employee validation schemas
-export const employeeSchemas = {
+const employeeSchemas = {
   create: z.object({
     body: baseEmployeeSchema,
   }),
@@ -135,7 +135,7 @@ export const employeeSchemas = {
 };
 
 // Leave validation schemas
-export const leaveSchemas = {
+const leaveSchemas = {
   request: z.object({
     body: z.object({
       policyId: commonSchemas.id,
@@ -159,15 +159,6 @@ export const leaveSchemas = {
       comments: z.string().trim().optional(),
     }),
   }),
-};
-
-// Export for both ES Modules and CommonJS
-export default {
-  validate,
-  commonSchemas,
-  authSchemas,
-  employeeSchemas,
-  leaveSchemas,
 };
 
 module.exports = {
